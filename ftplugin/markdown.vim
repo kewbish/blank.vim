@@ -1,3 +1,3 @@
-command BlankLint echom "BlankLinting..."
+command BlankLint call blank#Lint()
 
-command BlankHi echom "BlankHightlighting..."
+command BlankHi call blank#Hi() 
