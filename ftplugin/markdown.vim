@@ -1,3 +1,3 @@
 command BlankLint call blank#Lint()
-
-command BlankHi call blank#Hi() 
+command BlankDiff call blank#Diff()
+command BlankHi call blank#Hi()
