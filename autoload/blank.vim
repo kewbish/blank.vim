@@ -1,4 +1,10 @@
 function blank#Lint()
+    let potFile = expand('%:r). "-blank-diff". expand('%:e')
+    if filereadable(potFile)
+        echom "File exists. Exiting."
+    else
+        echom potFile
+    endif
     echom "Blank-style linting..."
 endfunction
 
@@ -13,4 +19,5 @@ function blank#Hi()
             execute "syntax keyword Blank ". quirk
         endif
     endfor
+    echom "Blank issues highlighted..."
 endfunction
