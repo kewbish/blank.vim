@@ -1,6 +1,7 @@
-# blank.vim
+= blank.vim =
 Made in Vimscript, September 2020.  
-Created by [Kewbish](https://github.com/kewbish)  
+Created by Kewbish → https://github.com/kewbish.
 Released under the MIT License.  
 
 A Vim plugin for an English checklist. Named after creator of said checklist, Dr. Blank.
+View the full list here → http://web.uvic.ca/~gkblank/Blank's%20Writing%20Quirk%20List.pdf
