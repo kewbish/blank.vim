@@ -12,6 +12,7 @@ function blank#Lint()
                 execute "%s/\<". quirk. "\>//ge"
             endif
         endfor
+        echom "Blank issues linted out. Compare and rewrite as needed."
         write
     endif
 endfunction
@@ -21,6 +22,7 @@ function blank#Diff()
     diffthis
     wincmd p
     diffthis
+    echom "Blank issues diffed."
 endfunction
 
 function blank#Hi()
