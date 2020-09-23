@@ -7,7 +7,7 @@ A Vim plugin for an English checklist. Named after creator of said checklist, Dr
 You can get a copy of the checklist used at the [UVic page](http://web.uvic.ca/~gkblank/Blank's%20Writing%20Quirk%20List.pdf).  
 These are common issues in English writing, and they're useful to keep in mind so you can ~~get better grades~~ improve your writing.
 
-> :warning: This plugin is hyper-hyper-personalized. It's not very smart, but I don't really need a 'smart' checker, just one that can brute-force a list and hopefully get me better grades. Also, I wanted to learn a bit of Vimscript.
+> :warning: This plugin is hyper-hyper-personalized. It's not very smart, but I don't really need a 'smart' checker, just one that can brute-force a list and hopefully get me better grades. Also, I wanted to learn a bit of Vimscript. And if it loads twice, or accidentally ruins your writing, I don't take any responsibility.
 
 ## Installation
 Put the below line in your vimrc in the usual place [Vim-Plug version, adapt for whatever plugin manager you use.]
